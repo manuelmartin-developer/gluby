@@ -1,6 +1,6 @@
 {
-  "short_name": "Fish App",
-  "name": "App description",
+  "short_name": "Gluby",
+  "name": "El asistente persona de tu acuario",
   "icons": [
     {
       "src": "favicon.ico",
