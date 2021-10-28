@@ -12,6 +12,7 @@ const path = require('path');
 
 
 const app = express();
+const port =5000
 app.use(express.static(path.join(__dirname, 'build')));
 const corsOptions = {
     origin: [
@@ -37,6 +38,6 @@ app.get('/*', (req, res) => {
 
 //Llamada a puerto
 
-app.listen((5000), () => {
+app.listen((process.env.PORT || 5000), () => {
     console.log(`Servidor corriendo`)
 })
